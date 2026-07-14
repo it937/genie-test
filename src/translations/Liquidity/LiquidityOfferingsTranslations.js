@@ -1,0 +1,36 @@
+const translations = {
+    en: {
+      title: "Why Choose our Liquidity Offerings?",
+      reliableHosting: "Reliable Hosting",
+      reliableDesc: "Experience secure and stable hosting designed for seamless trading performance, ensuring uninterrupted access to deep liquidity.",
+      smartRisk: "Smart Risk Management",
+      smartRiskDesc: "Our system continuously monitors market activity to manage potential risks, helping protect your account and enhance trading safety.",
+      lightningExecution: "Lightning Execution",
+      lightningDesc: "Enjoy ultra-fast trade execution with minimal delays, giving you accurate and efficient order processing in every market condition.",
+      lowLatency: "Low Latency",
+      lowLatencyDesc: "Trade confidently with real-time market updates and swift data transmission that keeps you connected to every price movement instantly.",
+      advancedConnectivity: "Advanced Connectivity",
+      advancedDesc: "Seamlessly connect across platforms with powerful APIs for instant market access and unmatched trading performance.",
+      dedicatedSupport: "Dedicated Support",
+      dedicatedDesc: "Get round-the-clock assistance from our expert team, ready to resolve issues quickly and keep your trading operations running smoothly.",
+      connectNow: "Connect Now",
+    },
+    ar: {
+      title: "لماذا تختار عروض السيولة لدينا؟",
+      reliableHosting: "استضافة موثوقة",
+      reliableDesc: "استمتع باستضافة آمنة ومستقرة مصممة لأداء تداول سلس، مما يضمن وصولًا غير منقطع إلى السيولة العميقة.",
+      smartRisk: "إدارة مخاطر ذكية",
+      smartRiskDesc: "يراقب نظامنا نشاط السوق باستمرار لإدارة المخاطر المحتملة، مما يساعد على حماية حسابك وتعزيز سلامة التداول.",
+      lightningExecution: "تنفيذ صاروخي",
+      lightningDesc: "استمتع بتنفيذ تداول فائق السرعة مع أقل تأخير، مما يمنحك معالجة أوامر دقيقة وفعالة في كل ظروف السوق.",
+      lowLatency: "تأخير منخفض",
+      lowLatencyDesc: "تداول بثقة مع تحديثات السوق في الوقت الفعلي ونقل بيانات سريع يبقيك متصلاً بكل حركة سعرية فورًا.",
+      advancedConnectivity: "اتصال متقدم",
+      advancedDesc: "اربط بسلاسة عبر المنصات باستخدام APIs قوية للوصول الفوري إلى السوق وأداء تداول لا مثيل له.",
+      dedicatedSupport: "دعم مخصص",
+      dedicatedDesc: "احصل على مساعدة على مدار الساعة من فريقنا المتخصص، جاهز لحل المشكلات بسرعة والحفاظ على سير عمليات التداول بسلاسة.",
+      connectNow: "تواصل الآن",
+    },
+  };
+  
+  export default translations;

@@ -1,0 +1,450 @@
+/* app/globals.css */
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/font/Montserrat-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/font/Montserrat-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/font/Montserrat-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/font/Montserrat-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/font/Montserrat-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/font/Montserrat-ExtraBoldItalic.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/font/Montserrat-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/font/Montserrat-ExtraLightItalic.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/font/Montserrat-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/font/Montserrat-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/font/Montserrat-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/font/Montserrat-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/font/Montserrat-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/font/Montserrat-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/font/Montserrat-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/font/Montserrat-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/font/Montserrat-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/font/Montserrat-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Apply Montserrat as the default font */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Hide scrollbar for Chrome, Safari, and Edge */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for Firefox */
+html {
+  scrollbar-width: none;
+}
+
+/* Hide scrollbar for Internet Explorer and Edge */
+body {
+  -ms-overflow-style: none;
+}
+
+
+.banner-cta {
+    position: relative;
+    padding: 0.75rem 1.5rem !important;;
+    background: linear-gradient(to right, #180248, #7102ba);
+    border: 4px solid white;
+    border-radius: 9999px;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 1rem !important;
+    letter-spacing: 0.1em;
+    transition: all 300ms ease;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 
+      0 0 30px rgba(255, 255, 255, 1),
+      0 0 60px rgba(34, 211, 238, 0.5),
+      inset 0 0 30px rgba(139, 92, 246, 0.5);
+    -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+    mask: 
+      linear-gradient(#fff 0 0) content-box, 
+      linear-gradient(#fff 0 0);
+  }
+  
+  .banner-cta::before {
+    content: '';
+    position: absolute;
+    inset: -3px;
+    border-radius: 9999px;
+    padding: 3px;
+    background: linear-gradient(90deg, 
+      #22d3ee 0%, 
+      #a78bfa 25%, 
+      #22d3ee 50%, 
+      #a78bfa 75%, 
+      #22d3ee 100%
+    );
+    -webkit-mask: 
+      linear-gradient(#fff 0 0) content-box, 
+      linear-gradient(#fff 0 0);
+    mask: 
+      linear-gradient(#fff 0 0) content-box, 
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    animation: rotateBorder 3s linear infinite;
+    z-index: -1;
+  }
+  
+  .banner-cta::after {
+    content: '';
+    position: absolute;
+    inset: -3px;
+    border-radius: 9999px;
+    background: linear-gradient(45deg, 
+      transparent 30%, 
+      rgba(255, 255, 255, 0.8) 50%, 
+      transparent 70%
+    );
+    background-size: 200% 200%;
+    animation: shimmer 3s linear infinite;
+    z-index: -1;
+    opacity: 0.6;
+  }
+  
+  .banner-cta:hover {
+    transform: scale(1.05);
+  }
+  
+  
+  @keyframes shimmer {
+    0% {
+      background-position: 200% 0;
+    }
+    100% {
+      background-position: -200% 0;
+    }
+  }
+  
+.cta {
+  position: relative;
+  padding: 0.75rem 1.5rem !important;;
+  background: linear-gradient(to right, #180248, #7102ba);
+  border: 4px solid ;
+  border-radius: 9999px;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 1rem !important;
+  letter-spacing: 0.1em;
+  transition: all 300ms ease;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 
+    0 0 30px rgba(255, 255, 255, 1),
+    0 0 60px rgba(34, 211, 238, 0.5),
+    inset 0 0 30px rgba(139, 92, 246, 0.5);
+  -webkit-mask: 
+  linear-gradient(#fff 0 0) content-box, 
+  linear-gradient(#fff 0 0);
+  mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+}
+
+.cta::before {
+  content: '';
+  position: absolute;
+  inset: -3px;
+  border-radius: 9999px;
+  padding: 3px;
+  background: linear-gradient(90deg, 
+    #22d3ee 0%, 
+    #a78bfa 25%, 
+    #22d3ee 50%, 
+    #a78bfa 75%, 
+    #22d3ee 100%
+  );
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  animation: rotateBorder 3s linear infinite;
+  z-index: -1;
+}
+
+.cta::after {
+  content: '';
+  position: absolute;
+  inset: -3px;
+  border-radius: 9999px;
+  background: linear-gradient(45deg, 
+    transparent 30%, 
+    rgba(255, 255, 255, 0.8) 50%, 
+    transparent 70%
+  );
+  background-size: 200% 200%;
+  animation: shimmer 3s linear infinite;
+  z-index: -1;
+  opacity: 0.6;
+}
+
+.cta:hover {
+  transform: scale(1.05);
+}
+@media (max-width: 640px) {
+  .banner-cta {
+    padding: 0.75rem 1rem !important;  /* smaller padding */
+    font-size: 0.9rem !important;         /* smaller text */
+    border-width: 3px !important;
+    letter-spacing: 0.05em !important;
+    box-shadow:
+      0 0 15px rgba(255, 255, 255, 0.8),
+      0 0 30px rgba(34, 211, 238, 0.3),
+      inset 0 0 15px rgba(139, 92, 246, 0.3);
+  }
+
+  .cta::before {
+    padding: 2px !important;
+  }
+}
+/* Mobile overrides */
+@media (max-width: 640px) {
+  .cta {
+    padding: 0.75rem 1rem !important;  /* smaller padding */
+    font-size: 0.9rem !important;         /* smaller text */
+    border-width: 3px !important;
+    letter-spacing: 0.05em !important;
+    box-shadow:
+      0 0 15px rgba(255, 255, 255, 0.8),
+      0 0 30px rgba(34, 211, 238, 0.3),
+      inset 0 0 15px rgba(139, 92, 246, 0.3);
+  }
+
+  .cta::before {
+    padding: 2px !important;
+  }
+}
+
+.banner-heading-gradient {
+    background: linear-gradient(to right, #ffffff, #ffffff, #ffffff, #9008D5, #9008D5);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.heading-gradient {
+    background: linear-gradient(to right, #180248, #7102ba);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.blog-body h2 {
+  margin-top: 1.75rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.75rem;
+  font-weight: 900;
+  color: #180248;
+}
+
+.blog-body h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.65rem;
+  font-size: 1.35rem;
+  font-weight: 900;
+  color: #7102ba;
+}
+
+.blog-body p {
+  margin-bottom: 1.1rem;
+  color: rgba(24, 2, 72, 0.78);
+  line-height: 1.85;
+}
+
+.blog-body ul {
+  margin: 1rem 0 1.25rem;
+  list-style: disc;
+  padding-left: 1.5rem;
+  color: rgba(24, 2, 72, 0.78);
+  line-height: 1.8;
+}
+
+.blog-body strong {
+  color: #180248;
+  font-weight: 900;
+}
+
+.blog-body em {
+  color: #7102ba;
+}
+
+.blog-article-body h2 {
+  margin-top: 2rem;
+  margin-bottom: 0.85rem;
+  font-size: 1.45rem;
+  font-weight: 900;
+  color: #180248;
+}
+
+.blog-article-body h3 {
+  margin-top: 1.6rem;
+  margin-bottom: 0.7rem;
+  font-size: 1.12rem;
+  font-weight: 900;
+  color: #7102ba;
+}
+
+.blog-article-body p {
+  margin-bottom: 1.15rem;
+  color: rgba(24, 2, 72, 0.76);
+  font-size: 0.96rem;
+  line-height: 1.85;
+}
+
+.blog-article-body ul {
+  margin: 1rem 0 1.35rem;
+  list-style: disc;
+  padding-left: 1.5rem;
+  color: rgba(24, 2, 72, 0.76);
+  line-height: 1.85;
+}
+
+.blog-article-body strong {
+  color: #180248;
+  font-weight: 900;
+}
+
+.blog-article-body em {
+  color: #7102ba;
+}
+
+@media (min-width: 768px) {
+    .cta {
+        padding: 1rem 3rem;
+        font-size: 1.125rem;
+    }
+}

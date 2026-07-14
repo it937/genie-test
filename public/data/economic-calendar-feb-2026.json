@@ -1,0 +1,887 @@
+{
+  "timezone": "GMT +4",
+  "weeks": [
+    {
+      "id": "2026-06-01_to_2026-06-05",
+      "range": {
+        "start": "2026-06-01",
+        "end": "2026-06-05"
+      },
+      "title": {
+        "en": "ECONOMIC CALENDAR",
+        "ar": "التقويم الاقتصادي"
+      },
+      "subtitle": {
+        "en": "Key Market Movers This Week",
+        "ar": "أهم محركات السوق هذا الأسبوع"
+      },
+      "caption": {
+        "en": [
+          "Major employment data, central bank speeches, and growth figures are on deck. Here's what could shape the markets this week."
+        ],
+        "ar": [
+          "بيانات التوظيف الرئيسية، وخطابات البنوك المركزية، وأرقام النمو على الأجندة. إليك ما قد يشكل حركة الأسواق هذا الأسبوع."
+        ]
+      },
+      "disclaimer": {
+        "en": "This content is for informational purposes only and does not constitute financial advice.",
+        "ar": "هذا المحتوى لأغراض إعلامية فقط ولا يشكل نصيحة مالية."
+      },
+      "hashtags": {
+        "en": "#genieltd #economiccalendar #marketmovers #forexnews #marketupdates #tradinginsights #globalmarkets",
+        "ar": "#genieltd #economiccalendar #marketmovers #forexnews #marketupdates #tradinginsights #globalmarkets"
+      },
+      "events": [
+        {
+          "date": "2026-06-01",
+          "currency": "USD",
+          "time": "06:45",
+          "forecast": "55.3",
+          "previous": "55.3",
+          "title": {
+            "en": "Final Manufacturing PMI",
+            "ar": "مؤشر مديري المشتريات الصناعي النهائي"
+          }
+        },
+        {
+          "date": "2026-06-01",
+          "currency": "USD",
+          "time": "07:00",
+          "forecast": "53.3",
+          "previous": "52.7",
+          "title": {
+            "en": "ISM Manufacturing PMI",
+            "ar": "مؤشر مديري المشتريات الصناعي الصادر عن معهد إدارة التوريد"
+          }
+        },
+        {
+          "date": "2026-06-01",
+          "currency": "USD",
+          "time": "07:00",
+          "forecast": "85.3",
+          "previous": "84.6",
+          "title": {
+            "en": "ISM Manufacturing Prices",
+            "ar": "أسعار التصنيع الصادرة عن معهد إدارة التوريد"
+          }
+        },
+        {
+          "date": "2026-06-02",
+          "currency": "GBP",
+          "time": "07:00",
+          "forecast": "",
+          "previous": "",
+          "title": {
+            "en": "BOE Gov Bailey Speaks",
+            "ar": "خطاب محافظ بنك إنجلترا بيلي"
+          }
+        },
+        {
+          "date": "2026-06-02",
+          "currency": "USD",
+          "time": "07:00",
+          "forecast": "6.87M",
+          "previous": "6.87M",
+          "title": {
+            "en": "JOLTS Job Openings",
+            "ar": "فرص العمل الشاغرة JOLTS"
+          }
+        },
+        {
+          "date": "2026-06-02",
+          "currency": "AUD",
+          "time": "18:30",
+          "forecast": "0.5%",
+          "previous": "0.8%",
+          "title": {
+            "en": "GDP q/q",
+            "ar": "الناتج المحلي الإجمالي ربع سنوي"
+          }
+        },
+        {
+          "date": "2026-06-03",
+          "currency": "JPY",
+          "time": "01:30",
+          "forecast": "",
+          "previous": "",
+          "title": {
+            "en": "BOJ Gov Ueda Speaks",
+            "ar": "خطاب محافظ بنك اليابان أويدا"
+          }
+        },
+        {
+          "date": "2026-06-03",
+          "currency": "USD",
+          "time": "05:15",
+          "forecast": "116K",
+          "previous": "109K",
+          "title": {
+            "en": "ADP Non-Farm Employment Change",
+            "ar": "تغير التوظيف غير الزراعي الصادر عن ADP"
+          }
+        },
+        {
+          "date": "2026-06-03",
+          "currency": "USD",
+          "time": "07:00",
+          "forecast": "53.8",
+          "previous": "53.6",
+          "title": {
+            "en": "ISM Services PMI",
+            "ar": "مؤشر مديري المشتريات الخدمي الصادر عن معهد إدارة التوريد"
+          }
+        },
+        {
+          "date": "2026-06-04",
+          "currency": "CHF",
+          "time": "00:00",
+          "forecast": "3.0%",
+          "previous": "3.0%",
+          "title": {
+            "en": "Unemployment Rate",
+            "ar": "معدل البطالة"
+          }
+        },
+        {
+          "date": "2026-06-04",
+          "currency": "EUR",
+          "time": "01:00",
+          "forecast": "",
+          "previous": "",
+          "title": {
+            "en": "ECB President Lagarde Speaks",
+            "ar": "خطاب رئيسة البنك المركزي الأوروبي لاجارد"
+          }
+        },
+        {
+          "date": "2026-06-04",
+          "currency": "USD",
+          "time": "05:30",
+          "forecast": "211K",
+          "previous": "215K",
+          "title": {
+            "en": "Unemployment Claims",
+            "ar": "طلبات إعانة البطالة"
+          }
+        },
+        {
+          "date": "2026-06-05",
+          "currency": "USD",
+          "time": "05:30",
+          "forecast": "0.3%",
+          "previous": "0.2%",
+          "title": {
+            "en": "Average Hourly Earnings m/m",
+            "ar": "متوسط الأجور في الساعة شهري"
+          }
+        },
+        {
+          "date": "2026-06-05",
+          "currency": "USD",
+          "time": "05:30",
+          "forecast": "95K",
+          "previous": "115K",
+          "title": {
+            "en": "Non-Farm Employment Change",
+            "ar": "تغير التوظيف في القطاع غير الزراعي"
+          }
+        },
+        {
+          "date": "2026-06-05",
+          "currency": "USD",
+          "time": "05:30",
+          "forecast": "4.3%",
+          "previous": "4.3%",
+          "title": {
+            "en": "Unemployment Rate",
+            "ar": "معدل البطالة"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-06-08_to_2026-06-12",
+      "range": {
+        "start": "2026-06-08",
+        "end": "2026-06-12"
+      },
+      "title": {
+        "en": "ECONOMIC CALENDAR"
+      },
+      "subtitle": {
+        "en": "Key Market Movers This Week"
+      },
+      "caption": {
+        "en": []
+      },
+      "hashtags": {
+        "en": ""
+      },
+      "events": [
+        {
+          "date": "2026-06-08",
+          "currency": "EUR",
+          "time": "01:30",
+          "forecast": "",
+          "previous": "-16.4",
+          "title": {
+            "en": "Sentix Investor Confidence"
+          }
+        },
+        {
+          "date": "2026-06-08",
+          "currency": "GBP",
+          "time": "16:01",
+          "forecast": "",
+          "previous": "-3.4%",
+          "title": {
+            "en": "BRC Retail Sales Monitor y/y"
+          }
+        },
+        {
+          "date": "2026-06-08",
+          "currency": "AUD",
+          "time": "17:30",
+          "forecast": "",
+          "previous": "3.5%",
+          "title": {
+            "en": "Westpac Consumer Sentiment"
+          }
+        },
+        {
+          "date": "2026-06-09",
+          "currency": "JPY",
+          "time": "16:50",
+          "forecast": "",
+          "previous": "4.9%",
+          "title": {
+            "en": "PPI y/y"
+          }
+        },
+        {
+          "date": "2026-06-09",
+          "currency": "CNY",
+          "time": "18:30",
+          "forecast": "",
+          "previous": "1.2%",
+          "title": {
+            "en": "CPI y/y"
+          }
+        },
+        {
+          "date": "2026-06-09",
+          "currency": "CNY",
+          "time": "18:30",
+          "forecast": "",
+          "previous": "2.8%",
+          "title": {
+            "en": "PPI y/y"
+          }
+        },
+        {
+          "date": "2026-06-10",
+          "currency": "USD",
+          "time": "05:30",
+          "forecast": "",
+          "previous": "3.8%",
+          "title": {
+            "en": "CPI y/y"
+          }
+        },
+        {
+          "date": "2026-06-10",
+          "currency": "CAD",
+          "time": "06:45",
+          "forecast": "",
+          "previous": "",
+          "title": {
+            "en": "BOC Rate Statement"
+          }
+        },
+        {
+          "date": "2026-06-10",
+          "currency": "CAD",
+          "time": "07:30",
+          "forecast": "",
+          "previous": "",
+          "title": {
+            "en": "BOC Press Conference"
+          }
+        },
+        {
+          "date": "2026-06-11",
+          "currency": "EUR",
+          "time": "05:15",
+          "forecast": "",
+          "previous": "2.15%",
+          "title": {
+            "en": "Main Refinancing Rate"
+          }
+        },
+        {
+          "date": "2026-06-11",
+          "currency": "USD",
+          "time": "05:30",
+          "forecast": "",
+          "previous": "1.4%",
+          "title": {
+            "en": "PPI m/m"
+          }
+        },
+        {
+          "date": "2026-06-11",
+          "currency": "EUR",
+          "time": "05:45",
+          "forecast": "",
+          "previous": "",
+          "title": {
+            "en": "ECB Press Conference"
+          }
+        },
+        {
+          "date": "2026-06-12",
+          "currency": "EUR",
+          "time": "All Day",
+          "forecast": "",
+          "previous": "",
+          "title": {
+            "en": "ECOFIN Meetings"
+          }
+        },
+        {
+          "date": "2026-06-12",
+          "currency": "USD",
+          "time": "07:00",
+          "forecast": "",
+          "previous": "48.2",
+          "title": {
+            "en": "Prelim UoM Consumer Sentiment"
+          }
+        },
+        {
+          "date": "2026-06-12",
+          "currency": "USD",
+          "time": "07:00",
+          "forecast": "",
+          "previous": "4.5%",
+          "title": {
+            "en": "Prelim UoM Inflation Expectations"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-06-15_to_2026-06-19",
+      "range": {
+        "start": "2026-06-15",
+        "end": "2026-06-19"
+      },
+      "title": {
+        "en": "ECONOMIC CALENDAR"
+      },
+      "subtitle": {
+        "en": "Key Market Movers This Week"
+      },
+      "caption": {
+        "en": []
+      },
+      "hashtags": {
+        "en": ""
+      },
+      "events": [
+        {
+          "date": "2026-06-15",
+          "currency": "JPY",
+          "time": "Tentative",
+          "forecast": "",
+          "previous": "<0.75%",
+          "title": {
+            "en": "BOJ Policy Rate"
+          }
+        },
+        {
+          "date": "2026-06-15",
+          "currency": "JPY",
+          "time": "Tentative",
+          "forecast": "",
+          "previous": "",
+          "title": {
+            "en": "Monetary Policy Statement"
+          }
+        },
+        {
+          "date": "2026-06-15",
+          "currency": "AUD",
+          "time": "21:30",
+          "forecast": "",
+          "previous": "4.35%",
+          "title": {
+            "en": "Cash Rate"
+          }
+        },
+        {
+          "date": "2026-06-16",
+          "currency": "EUR",
+          "time": "02:00",
+          "forecast": "",
+          "previous": "-9.1",
+          "title": {
+            "en": "ZEW Economic Sentiment"
+          }
+        },
+        {
+          "date": "2026-06-16",
+          "currency": "GBP",
+          "time": "23:00",
+          "forecast": "",
+          "previous": "2.8%",
+          "title": {
+            "en": "CPI y/y"
+          }
+        },
+        {
+          "date": "2026-06-16",
+          "currency": "GBP",
+          "time": "23:30",
+          "forecast": "",
+          "previous": "3.0%",
+          "title": {
+            "en": "RPI y/y"
+          }
+        },
+        {
+          "date": "2026-06-17",
+          "currency": "USD",
+          "time": "11:00",
+          "forecast": "3.75%",
+          "previous": "3.75%",
+          "title": {
+            "en": "Federal Funds Rate"
+          }
+        },
+        {
+          "date": "2026-06-17",
+          "currency": "USD",
+          "time": "11:00",
+          "forecast": "",
+          "previous": "",
+          "title": {
+            "en": "FOMC Statement"
+          }
+        },
+        {
+          "date": "2026-06-17",
+          "currency": "GBP",
+          "time": "23:00",
+          "forecast": "",
+          "previous": "26.5K",
+          "title": {
+            "en": "Claimant Count Change"
+          }
+        },
+        {
+          "date": "2026-06-18",
+          "currency": "CHF",
+          "time": "00:30",
+          "forecast": "0.00%",
+          "previous": "0.00%",
+          "title": {
+            "en": "SNB Policy Rate"
+          }
+        },
+        {
+          "date": "2026-06-18",
+          "currency": "GBP",
+          "time": "04:00",
+          "forecast": "",
+          "previous": "3.75%",
+          "title": {
+            "en": "Official Bank Rate"
+          }
+        },
+        {
+          "date": "2026-06-18",
+          "currency": "JPY",
+          "time": "16:30",
+          "forecast": "",
+          "previous": "1.4%",
+          "title": {
+            "en": "National Core CPI y/y"
+          }
+        },
+        {
+          "date": "2026-06-19",
+          "currency": "CAD",
+          "time": "05:30",
+          "forecast": "",
+          "previous": "1.4%",
+          "title": {
+            "en": "Core Retail Sales m/m"
+          }
+        },
+        {
+          "date": "2026-06-19",
+          "currency": "CAD",
+          "time": "05:30",
+          "forecast": "",
+          "previous": "0.9%",
+          "title": {
+            "en": "Retail Sales m/m"
+          }
+        },
+        {
+          "date": "2026-06-19",
+          "currency": "AUD",
+          "time": "07:30",
+          "forecast": "",
+          "previous": "-0.6%",
+          "title": {
+            "en": "CB Leading Index m/m"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-06-22_to_2026-06-26",
+      "range": {
+        "start": "2026-06-22",
+        "end": "2026-06-26"
+      },
+      "title": {
+        "en": "ECONOMIC CALENDAR"
+      },
+      "subtitle": {
+        "en": "Key Market Movers This Week"
+      },
+      "caption": {
+        "en": []
+      },
+      "hashtags": {
+        "en": ""
+      },
+      "events": [
+        {
+          "date": "2026-06-22",
+          "currency": "CAD",
+          "time": "05:30",
+          "forecast": "",
+          "previous": "",
+          "title": {
+            "en": "Median CPI y/y"
+          }
+        },
+        {
+          "date": "2026-06-22",
+          "currency": "EUR",
+          "time": "07:00",
+          "forecast": "",
+          "previous": "",
+          "title": {
+            "en": "Consumer Confidence"
+          }
+        },
+        {
+          "date": "2026-06-22",
+          "currency": "JPY",
+          "time": "22:00",
+          "forecast": "",
+          "previous": "",
+          "title": {
+            "en": "BOJ Core CPI y/y"
+          }
+        },
+        {
+          "date": "2026-06-23",
+          "currency": "GBP",
+          "time": "01:30",
+          "forecast": "",
+          "previous": "",
+          "title": {
+            "en": "Flash Manufacturing PMI"
+          }
+        },
+        {
+          "date": "2026-06-23",
+          "currency": "GBP",
+          "time": "01:30",
+          "forecast": "",
+          "previous": "",
+          "title": {
+            "en": "Flash Services PMI"
+          }
+        },
+        {
+          "date": "2026-06-23",
+          "currency": "AUD",
+          "time": "18:30",
+          "forecast": "",
+          "previous": "",
+          "title": {
+            "en": "CPI y/y"
+          }
+        },
+        {
+          "date": "2026-06-24",
+          "currency": "USD",
+          "time": "07:00",
+          "forecast": "",
+          "previous": "",
+          "title": {
+            "en": "New Home Sales"
+          }
+        },
+        {
+          "date": "2026-06-24",
+          "currency": "AUD",
+          "time": "18:30",
+          "forecast": "",
+          "previous": "",
+          "title": {
+            "en": "Employment Change"
+          }
+        },
+        {
+          "date": "2026-06-24",
+          "currency": "AUD",
+          "time": "18:30",
+          "forecast": "",
+          "previous": "",
+          "title": {
+            "en": "Unemployment Rate"
+          }
+        },
+        {
+          "date": "2026-06-25",
+          "currency": "USD",
+          "time": "05:30",
+          "forecast": "",
+          "previous": "",
+          "title": {
+            "en": "Core PCE Price Index m/m"
+          }
+        },
+        {
+          "date": "2026-06-25",
+          "currency": "USD",
+          "time": "05:30",
+          "forecast": "",
+          "previous": "",
+          "title": {
+            "en": "Final GDP q/q"
+          }
+        },
+        {
+          "date": "2026-06-25",
+          "currency": "JPY",
+          "time": "16:30",
+          "forecast": "",
+          "previous": "",
+          "title": {
+            "en": "Tokyo Core CPI y/y"
+          }
+        },
+        {
+          "date": "2026-06-26",
+          "currency": "USD",
+          "time": "05:30",
+          "forecast": "",
+          "previous": "",
+          "title": {
+            "en": "Goods Trade Balance"
+          }
+        },
+        {
+          "date": "2026-06-26",
+          "currency": "USD",
+          "time": "07:30",
+          "forecast": "",
+          "previous": "",
+          "title": {
+            "en": "Revised UoM Consumer Sentiment"
+          }
+        },
+        {
+          "date": "2026-06-26",
+          "currency": "USD",
+          "time": "Tentative",
+          "forecast": "",
+          "previous": "",
+          "title": {
+            "en": "Fed Monetary Policy Report"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-06-29_to_2026-07-03",
+      "range": {
+        "start": "2026-06-29",
+        "end": "2026-07-03"
+      },
+      "title": {
+        "en": "ECONOMIC CALENDAR"
+      },
+      "subtitle": {
+        "en": "Key Market Movers This Week"
+      },
+      "caption": {
+        "en": []
+      },
+      "hashtags": {
+        "en": ""
+      },
+      "events": [
+        {
+          "date": "2026-06-29",
+          "currency": "CNY",
+          "time": "18:30",
+          "forecast": "",
+          "previous": "",
+          "title": {
+            "en": "Manufacturing PMI"
+          }
+        },
+        {
+          "date": "2026-06-29",
+          "currency": "CNY",
+          "time": "18:30",
+          "forecast": "",
+          "previous": "",
+          "title": {
+            "en": "Non-Manufacturing PMI"
+          }
+        },
+        {
+          "date": "2026-06-29",
+          "currency": "EUR",
+          "time": "All Day",
+          "forecast": "",
+          "previous": "",
+          "title": {
+            "en": "German Prelim CPI m/m"
+          }
+        },
+        {
+          "date": "2026-06-30",
+          "currency": "CAD",
+          "time": "05:30",
+          "forecast": "",
+          "previous": "",
+          "title": {
+            "en": "GDP m/m"
+          }
+        },
+        {
+          "date": "2026-06-30",
+          "currency": "USD",
+          "time": "07:00",
+          "forecast": "",
+          "previous": "",
+          "title": {
+            "en": "CB Consumer Confidence"
+          }
+        },
+        {
+          "date": "2026-06-30",
+          "currency": "USD",
+          "time": "07:00",
+          "forecast": "",
+          "previous": "",
+          "title": {
+            "en": "JOLTS Job Openings"
+          }
+        },
+        {
+          "date": "2026-07-01",
+          "currency": "JPY",
+          "time": "01:30",
+          "forecast": "",
+          "previous": "",
+          "title": {
+            "en": ""
+          }
+        },
+        {
+          "date": "2026-07-01",
+          "currency": "USD",
+          "time": "05:15",
+          "forecast": "",
+          "previous": "",
+          "title": {
+            "en": ""
+          }
+        },
+        {
+          "date": "2026-07-01",
+          "currency": "USD",
+          "time": "07:00",
+          "forecast": "",
+          "previous": "",
+          "title": {
+            "en": ""
+          }
+        },
+        {
+          "date": "2026-07-02",
+          "currency": "CHF",
+          "time": "00:00",
+          "forecast": "",
+          "previous": "",
+          "title": {
+            "en": ""
+          }
+        },
+        {
+          "date": "2026-07-02",
+          "currency": "EUR",
+          "time": "01:00",
+          "forecast": "",
+          "previous": "",
+          "title": {
+            "en": ""
+          }
+        },
+        {
+          "date": "2026-07-02",
+          "currency": "USD",
+          "time": "05:30",
+          "forecast": "",
+          "previous": "",
+          "title": {
+            "en": ""
+          }
+        },
+        {
+          "date": "2026-07-03",
+          "currency": "USD",
+          "time": "05:30",
+          "forecast": "",
+          "previous": "",
+          "title": {
+            "en": ""
+          }
+        },
+        {
+          "date": "2026-07-03",
+          "currency": "USD",
+          "time": "05:30",
+          "forecast": "",
+          "previous": "",
+          "title": {
+            "en": ""
+          }
+        },
+        {
+          "date": "2026-07-03",
+          "currency": "USD",
+          "time": "05:30",
+          "forecast": "",
+          "previous": "",
+          "title": {
+            "en": ""
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /admin/blogs
+Disallow: /admin/login
+Disallow: /admin/password
+Disallow: /admin/pdf
+Disallow: /daily-pdf
+Disallow: /ops-pdf-portal
+Disallow: /promotion/register-20
+Allow: /api/blog-image/
+Disallow: /api/
+
+# Host
+Host: https://geniefx.com
+
+# Sitemap
+Sitemap: https://geniefx.com/sitemap.xml

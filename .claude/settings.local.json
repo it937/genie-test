@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xargs cat)",
+      "Bash(npm install *)",
+      "Bash(npx next-sitemap *)",
+      "Bash(xargs ls)",
+      "Bash(mkdir -p \"/Users/saadnadeem/Desktop/MarketMavens/Genie/genie-app/src/app/api/blog-image/[slug]\")"
+    ],
+    "additionalDirectories": [
+      "/Users/saadnadeem/Desktop/MarketMavens/Genie/genie-app/src/app/api/blog-image"
+    ]
+  }
+}
