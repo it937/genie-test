@@ -80,7 +80,6 @@ const Footer = () => {
         <div>
           <h3 className="font-bold mb-6 text-lg">{t.promotion}</h3>
           <ul className="space-y-3">
-            <li><Link href="/promotion/20-bonus" className="text-gray-300 hover:text-white hover:translate-x-2 transition-all duration-300 block">{t.bonus20}</Link></li>
             <li><Link href="/trade-to-win" className="text-gray-300 hover:text-white hover:translate-x-2 transition-all duration-300 block">{t.tradeToWin}</Link></li>
             <li><Link href="/ib-reward" className="text-gray-300 hover:text-white hover:translate-x-2 transition-all duration-300 block">{t.loyaltyProgram}</Link></li>
             {/* <li><Link href="/promotion/register-20" className="text-gray-300 hover:text-white hover:translate-x-2 transition-all duration-300 block">{t.register}</Link></li> */}

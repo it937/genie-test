@@ -222,26 +222,7 @@ export default function Header () {
               </div>
 
               {/* Promotion Dropdown - Pulsating */}
-              <div className='relative group'>
-                <div className='flex items-center space-x-1 promotion-glow text-sm font-bold text-[#FFD700] transition-colors duration-300 cursor-pointer'>
-                  <span>{t.promotion}</span>
-                  <FaChevronDown className='text-xs transition-transform duration-300 group-hover:rotate-180' />
-                </div>
-                <div className='absolute left-0 mt-3 w-44 bg-[#0A1733]/95 backdrop-blur-md rounded-xl shadow-2xl overflow-hidden transform origin-top opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 border border-[#7102ba]/30'>
-                  <Link
-                    href='/promotion/20-bonus'
-                    className='block px-5 py-3 text-white hover:bg-gradient-to-r hover:from-[#180248] hover:to-[#7102ba] text-sm transition-all duration-300'
-                  >
-                    {t.bonusTwenty}
-                  </Link>
-                  <Link
-                    href='/trade-to-win'
-                    className='block px-5 py-3 text-white hover:bg-gradient-to-r hover:from-[#180248] hover:to-[#7102ba] text-sm transition-all duration-300'
-                  >
-                    {t.tradeToWin}
-                  </Link>
-                </div>
-              </div>
+              
 
               {/* Login Button */}
               <Link
@@ -534,40 +515,7 @@ export default function Header () {
                 </div>
 
                 {/* Promotion Dropdown Mobile */}
-                <div className='glass-card rounded-2xl overflow-hidden border-2 border-[#FFD700]/30'>
-                  <button
-                    onClick={() => setIsPromotionOpen(prev => !prev)}
-                    className='flex items-center justify-between w-full px-5 py-4 hover:bg-white/10 transition-all duration-300'
-                  >
-                    <div className='flex items-center space-x-3'>
-                      <span className='promotion-glow text-sm font-bold'>{t.promotion}</span>
-                    </div>
-                    <FaChevronDown
-                      className={`text-xs transition-transform duration-300 text-[#FFD700] ${
-                        isPromotionOpen ? 'rotate-180' : ''
-                      }`}
-                    />
-                  </button>
-
-                  {isPromotionOpen && (
-                    <div className='px-3 pb-3 mt-2 space-y-2 animate-slideDown'>
-                      <Link
-                        href='/promotion/20-bonus'
-                        onClick={closeMobileMenu}
-                        className='block px-5 py-3 text-white/90 hover:text-white bg-gradient-to-r from-[#FFD700]/20 to-[#FFA500]/20 hover:from-[#FFD700]/40 hover:to-[#FFA500]/40 rounded-xl text-sm transition-all duration-300 border border-[#FFD700]/30'
-                      >
-                        {t.bonusTwenty}
-                      </Link>
-                      <Link
-                        href='/trade-to-win'
-                        onClick={closeMobileMenu}
-                        className='block px-5 py-3 text-white/90 hover:text-white bg-gradient-to-r from-[#FFD700]/20 to-[#FFA500]/20 hover:from-[#FFD700]/40 hover:to-[#FFA500]/40 rounded-xl text-sm transition-all duration-300 border border-[#FFD700]/30'
-                      >
-                        {t.tradeToWin}
-                      </Link>
-                    </div>
-                  )}
-                </div>
+                
 
                 {/* Action Buttons */}
                 <div className='pt-4 space-y-3'>
